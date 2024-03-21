@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.header {
+  background: url(../../public/RB.jpg);
+  background-size: cover;
+  padding: 60px;
+}
+.header .title {
+  color: black;
+}
 
 body {
   font-family: "Poppins", sans-serif;
