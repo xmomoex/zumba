@@ -1,23 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 header {
   background: url(../../img/RB.jpg);
   background-size: cover;
-  padding: 60px;
-}
-header .title {
-  color: #007bff;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .form {
@@ -25,14 +8,10 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.title {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #007bff;
-}
-
 .form-group {
   margin-bottom: 10px;
 }
